@@ -21,9 +21,10 @@ html, body{
     justify-content: space-around;
 }
 .card{
-    width: 280px;
-    height: 360px;
-    padding: 2rem 1rem;
+    width: 480px;
+    height: 540px;
+    padding: 2rem 8rem;
+    margin: 20px;
     background: #fff;
     position: relative;
     display: flex;
@@ -53,6 +54,7 @@ html, body{
 }
 .card:hover:before{
     opacity: 1;
+    border-radius: 5%;
 }
 .card img{
     width: 100%;
